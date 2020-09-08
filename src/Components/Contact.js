@@ -97,7 +97,7 @@ const Contact = ({ data, translate }) => {
               </div>
 
               <div>
-                <button type="submit" onClick={handleClick} className="submit">
+                <button type="submit" className="submit">
                   {translate && translate._submit}
                 </button>
                 <span id="image-loader">
