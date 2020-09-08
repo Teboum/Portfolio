@@ -1,0 +1,152 @@
+{
+  "main": {
+    "name": "Tewfik Boumazza",
+    "occupation": "J'AI FAIS DE CE PORTFOLIO UNE APPLICATION MULTI-LANGUE !!!!",
+    "description": "Future Full-Stack Développeur (JAVASCRIPT) React et Express INCHAALLAH , On est la pour afficher les idees dur les écrans. #eBoum",
+    "image": "tewfik.jpg",
+    "bio": "Je suis Tewfik , un future développer web full-stack ,je peux faire des projet en tant-que freelancer ,ou travaille a distance , et il y'aura des surprises pour mes premiers clients",
+    "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
+    "email": "Boumazzat@gmail.com",
+    "phone": "+213 553 05 77 59",
+    "address": {
+      "street": "123 Fause adresse",
+      "city": "Oran",
+      "state": "Alg",
+      "zip": "31000"
+    },
+    "website": "",
+    "resumedownload": "",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/tewfik.boumazza",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/tewfik-boumazza-3a8b1bb4",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Teboum",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Je suis débutant et chaque jour je progress en apprenant de nouvelles choses (la soif d'apprendre) et vous pouvez voir si dessous certains de mes travaux",
+    "education": [
+      {
+        "school": "Université Mohammed Boudiaf USTO MB",
+        "degree": "Licence en informatique",
+        "graduated": "mai 2015"
+      }
+    ],
+    "work": [
+      {
+        "company": "Tosyali Algérie",
+        "title": "fourmen-helper",
+        "years": "mai 2019 - aout 2020",
+        "description": "Chef de groupe de mécanicien et de soudeur"
+      },
+      {
+        "company": "Tosyali Algerie",
+        "title": "Opérateur",
+        "years": "Aout 2017 - Mai 2019",
+        "description": "Supervision et controle des machines a distance depuis SCADA et localement"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Javascript",
+        "level": "70%"
+      },
+      {
+        "name": "CSS",
+        "level": "60%"
+      },
+      {
+        "name": "HTML5",
+        "level": "70%"
+      },
+      {
+        "name": "django",
+        "level": "50%"
+      },
+      {
+        "name": "SQL",
+        "level": "50%"
+      },
+      {
+        "name": "React",
+        "level": "15%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Mern Stack Clone que j'ai fais avec la comunauté clever programmers Merci a vous",
+        "category": "WhatsApp Clone Fais avec les technologies MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "whatsapp-mern.jpeg",
+        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+      },
+      {
+        "title": "MERN Stack TikTok Clone que j'ai fais avec la comunauté clever programmers",
+        "category": "TikTok Clone fais avec les technologies MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "tiktok-mern.jpeg",
+        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+      },
+      {
+        "title": "Site vitrine d'un architect vidéo démo css html js jquery",
+        "category": "Une application mono-page je charge les donnée a l'aide de jquery et",
+        "image": "facebook-clone.png",
+        "url": "https://drive.google.com/file/d/17qm4Fp06nTwV4BTY8c7ALcBYaFmVhhax/view?usp=sharing"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "Ce qui semblait douloureux je l'ai trouver confortable, ce qui semblait triste je l'ai trouver bonheur, ce qui semblait difficile je l'ai trouver facile, et ce qui semblait être un échec, été un succès, et ce qui semblait sombre, été brillant et j'ai appris à ne pas regarder les choses à partir de leurs apparences.",
+        "user": "Ibrahim El Fiky"
+      }
+    ]
+  },
+  "translate": [
+    {
+      "_contact": "CONTACT",
+      "_testimonials": "TÉMOIGNAGE",
+      "_works": "TRAVAUX",
+      "_resume": "CV",
+      "_about": "A PROPOS",
+      "_home": "ACCUEIL",
+      "_based": "Je suis basé à ",
+      "_am": ""
+    },
+    {
+      "_aboutme": "A propos de moi",
+      "_contactD": " Information de Contact",
+      "_downresume": "Télecharger CV"
+    },
+    { "_education": "ÉDUCATION", "_work": "TRAVAIL", "_skills": "COMPÉTENCE" },
+    { "_check": "DÉCOUVREZ CERTAINS DE MES TRAVAUX " },
+    {
+      "_addndphone": "Adresse et numéro de téléphone",
+      "_name": "nom",
+      "_email": "Email",
+      "_subject": "Sujet",
+      "_message": "Message",
+      "_submit": "VALIDEZ",
+      "_err": "Erreur mon pote",
+      "_sent": "Votre message a été envoyer ,merci"
+    },
+    { "_en": "ANG", "_fr": "FR", "_ar": "AR" },
+    { "_clienttest": "Témoignage des clients" }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "main": {
+    "name": "Tewfik Boumazza",
+    "occupation": "I MADE THIS PORTFOLIO MULTI-LAGUAGE ENJOY !!!!",
+    "description": "Future Full Stack (Javascript) React and express Developer INCHAALLAH,We are here to display ideas on screen. #eBoumSearchJob",
+    "image": "tewfik.jpg",
+    "bio": "I am Tewfik, I'm a future Full Stack ReactJS and ExpressJS Developer. Searching for a work I am open to any offer can make projects as freelancer ,work remotely and there will be gits for the first client  After a bad career choice which was to work in the industrial field far from IT  I decided in last August to to drop the factory and now I want to become a brillant web developer I studied the basis of Algorithmes and Data Structures in the university and I studied for almost 3 months Javascript and now it's been less then 10 days since I started REACT and EXPRESS ,God made me fall at the right time with your MERN lives and this challenge I learned a lot by making the whatsApp an Tiktok clone with sunny and david Thank you to all the team of clevers programmers and to all the comunity PEACE ",
+    "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
+    "email": "Boumazzat@gmail.com",
+    "phone": "+213 553 05 77 59",
+    "address": {
+      "street": "123 Fake Street",
+      "city": "Oran",
+      "state": "Alg",
+      "zip": "31000"
+    },
+    "website": "",
+    "resumedownload": "",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/tewfik.boumazza",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/tewfik-boumazza-3a8b1bb4",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Teboum",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "I am begginer and every day I improve my skills thirsty to learn and you can see below ones of my works",
+    "education": [
+      {
+        "school": "University Mohammed Boudiaf USTO MB",
+        "degree": "Computer science degree",
+        "graduated": "may 2015"
+      }
+    ],
+    "work": [
+      {
+        "company": "Tosyali Algeie",
+        "title": "fourmen-helper",
+        "years": "may 2019 - August 2020",
+        "description": "Group leader of mechanics and welders"
+      },
+      {
+        "company": "Tosyali Algerie",
+        "title": "Operator",
+        "years": "August 2017 - May 2019",
+        "description": "Supervising and controle machines remotly from Scada and local"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Javascript",
+        "level": "70%"
+      },
+      {
+        "name": "CSS",
+        "level": "60%"
+      },
+      {
+        "name": "HTML5",
+        "level": "70%"
+      },
+      {
+        "name": "django",
+        "level": "50%"
+      },
+      {
+        "name": "SQL",
+        "level": "50%"
+      },
+      {
+        "name": "React",
+        "level": "15%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "MERN Stack WhatsApp Clone did it with you Thank's guys",
+        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "whatsapp-mern.jpeg",
+        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+      },
+      {
+        "title": "MERN Stack TikTok Clone did it with you Thank's guys",
+        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "tiktok-mern.jpeg",
+        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+      },
+      {
+        "title": "Architect showcase video demo css html js jquery",
+        "category": "Single page app charging data from database without refresh using jquery",
+        "image": "facebook-clone.png",
+        "url": "https://drive.google.com/file/d/17qm4Fp06nTwV4BTY8c7ALcBYaFmVhhax/view?usp=sharing"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Stay away from people who try to diminish your ambitions, great people are the ones who make you feel that you can be one of them.",
+        "user": "Ibrahim El Fiky"
+      },
+      {
+        "text": "What seemed painful I found it comfortable, what seemed sad I found it happy, what seemed difficult I found it easy, and what seemed to be a failure, I found it a success, and what seemed dark, I found it bright and learned to not look at things from their appearances.",
+        "user": "Ibrahim El Fiky"
+      }
+    ]
+  },
+  "translate": [
+    {
+      "_contact": "CONTACT",
+      "_testimonials": "TESTIMONIALS",
+      "_works": "WORKS",
+      "_resume": "RESUME",
+      "_about": "ABOUT",
+      "_home": "HOME",
+      "_based": "I am based in ",
+      "_am": ""
+    },
+    {
+      "_aboutme": "About me",
+      "_contactD": "Contact Details",
+      "_downresume": "Download Resume"
+    },
+    { "_education": "EDUCATION", "_work": "WORK", "_skills": "SKILLS" },
+    { "_check": "CHECK OUT SOME OF MY WORKS " },
+    {
+      "_addndphone": "ADDRESS AND PHONE",
+      "_name": "Name",
+      "_email": "Email",
+      "_subject": "Subject",
+      "_message": "Message",
+      "_submit": "SUBMIT",
+      "_err": "Erreur boy",
+      "_sent": "Your message was sent, thank you"
+    },
+    { "_en": "EN", "_fr": "FR", "_ar": "AR" },
+    { "_clienttest": "Clients testimonials" }
+  ]
+}
