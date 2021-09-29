@@ -32,7 +32,7 @@ class Header extends Component {
               Hide navigation
             </a>
 
-            <ul id="nav" className="nav">
+            <ul id="nav" className={"nav",this.props.ar?"arabicFont":null}>
               <li className="current">
                 <a className="smoothscroll smooth" href="#home">
                   {Translate && Translate._home}
@@ -85,10 +85,7 @@ class Header extends Component {
             </a>
           </p>
         </header>
-        <div className="Arrow transit">
-          <span>CHECK THIS</span>
-          <ArrowUpwardIcon id="mat" />
-        </div>
+       
       </div>
     );
   }

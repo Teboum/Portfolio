@@ -18,35 +18,30 @@ class App extends Component {
       foo: "bar",
       resumeData: {},
       Translate: [],
-    };
+      en:true,
+      ar:false,
+      fr:false
+   };
   }
-
+  
   changeLanguage = (e) => {
+    console.log(e.target,"check");
+    console.log(this.state,'state');
     if (e.target.id === "ar") {
-      this.getResumeData("/resumeDataAr.json");
-      document.getElementById("fr").style.color = "white";
-      document.getElementById("en").style.color = "white";
-      e.target.style.color = "orange";
-      document.querySelector(".App").classList.add("arabic");
-      document.querySelector("#lang").classList.add("language");
-      document.querySelector(".nav").classList.add("arabicFont");
-    } else if (e.target.id === "en") {
-      this.getResumeData("/resumeData.json");
-      document.getElementById("fr").style.color = "white";
-      document.getElementById("ar").style.color = "white";
-      document.querySelector(".App").classList.remove("arabic");
-      document.querySelector("#lang").classList.remove("language");
-      document.querySelector(".nav").classList.remove("arabicFont");
-      e.target.style.color = "orange";
-    } else if (e.target.id === "fr") {
-      this.getResumeData("/resumeDataFr.json");
-      document.getElementById("ar").style.color = "white";
-      document.getElementById("en").style.color = "white";
-      document.querySelector(".App").classList.remove("arabic");
-      document.querySelector("#lang").classList.remove("language");
-      document.querySelector(".nav").classList.remove("arabicFont");
-      e.target.style.color = "orange";
+      this.setState({ar:true,en:false,fr:false},()=>{
+        this.getResumeData("/resumeDataAr.json");
+      })
+   } else if (e.target.id === "en") {
+      this.setState({en:true,ar:false,fr:false},()=>{
+        this.getResumeData("/resumeData.json");
+      })
+   } else if (e.target.id === "fr") {
+      this.setState({fr:true,ar:false,en:false},()=>{
+        this.getResumeData("/resumeDataFr.json");
+      })
+
     }
+  
     return true;
   };
   getResumeData(language) {
@@ -57,32 +52,33 @@ class App extends Component {
       cache: false,
       success: function (data) {
         this.setState({ resumeData: data, Translate: data.translate });
-        console.log(this.state.Translate);
       }.bind(this),
       error: function (xhr, status, err) {
-        console.log(err);
-        alert(err);
+       alert(err);
       },
     });
   }
 
   componentDidMount() {
+    
     this.getResumeData("/resumeData.json");
-    document.getElementById("en").style.color = "Orange";
-    setTimeout(() => {
-      document.querySelector(".Arrow").style.display = "none";
-    }, 8000);
+    
   }
 
   render() {
     return (
-      <div className="App">
+      <div className={"App",this.state.ar?"arabic":""}>
         <Header
           data={this.state.resumeData.main}
           translate={this.state.Translate[0]}
+          ar={this.state.ar}
+          
         />
         <Language
           changeLanguage={this.changeLanguage}
+          en={this.state.en}
+          ar={this.state.ar}
+          fr={this.state.fr}
           translate={this.state.Translate[5]}
         />
         <About

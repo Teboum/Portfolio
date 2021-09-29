@@ -87,7 +87,7 @@
   "portfolio": {
     "projects": [
       {
-        "title": "MERN Stack WhatsApp Clone did it with you Thank's guys",
+       "title": "MERN Stack WhatsApp Clone did it with you Thank's guys",
         "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
         "image": "whatsapp-mern.jpeg",
         "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
@@ -99,12 +99,11 @@
         "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
       },
       {
-        "title": "Architect showcase video demo css html js jquery",
+       "title": "Architect showcase video demo css html js jquery",
         "category": "Single page app charging data from database without refresh using jquery",
-        "image": "facebook-clone.png",
-        "url": "https://drive.google.com/file/d/17qm4Fp06nTwV4BTY8c7ALcBYaFmVhhax/view?usp=sharing"
-      }
-    ]
+        "image": "facebook-clone.png","url": "https://drive.google.com/file/d/17qm4Fp06nTwV4BTY8c7ALcBYaFmVhhax/view?usp=sharing"}]
+        
+       
   },
   "testimonials": {
     "testimonials": [

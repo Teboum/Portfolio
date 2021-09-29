@@ -87,21 +87,21 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Mern Stack Clone que j'ai fais avec la comunauté clever programmers Merci a vous",
-        "category": "WhatsApp Clone Fais avec les technologies MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "whatsapp-mern.jpeg",
+        "project":[{"title": "Mern Stack Clone que j'ai fais avec la comunauté clever programmers Merci a vous",
+          "category": "WhatsApp Clone Fais avec les technologies MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+          "image": "whatsapp-mern.jpeg"}],
         "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
       },
       {
-        "title": "MERN Stack TikTok Clone que j'ai fais avec la comunauté clever programmers",
+       "project": [{"title": "MERN Stack TikTok Clone que j'ai fais avec la comunauté clever programmers",
         "category": "TikTok Clone fais avec les technologies MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "tiktok-mern.jpeg",
+        "image": "tiktok-mern.jpeg"}],
         "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
       },
       {
-        "title": "Site vitrine d'un architect vidéo démo css html js jquery",
+        "project":[{"title": "Site vitrine d'un architect vidéo démo css html js jquery",
         "category": "Une application mono-page je charge les donnée a l'aide de jquery et",
-        "image": "facebook-clone.png",
+        "image": "facebook-clone.png"}],
         "url": "https://drive.google.com/file/d/17qm4Fp06nTwV4BTY8c7ALcBYaFmVhhax/view?usp=sharing"
       }
     ]

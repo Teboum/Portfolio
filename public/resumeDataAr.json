@@ -87,21 +87,21 @@
   "portfolio": {
     "projects": [
       {
-        "title": "مارن ستاك شبيه واتس آب مع مجتمع كليفر بوغرامر ",
+        "project":[{"title": "مارن ستاك شبيه واتس آب مع مجتمع كليفر بوغرامر ",
         "category": "شبيه لواتس آب بالمانر(مونغو دي بي ، إكسبرس جي اس، رياكت جي اس ، نود جي اس)",
-        "image": "whatsapp-mern.jpeg",
+        "image": "whatsapp-mern.jpeg"}],
         "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
       },
       {
-        "title": "شبيه تيك توك مارن ستاك مع مجتمع كليفر بروغرامر",
+        "project":[{"title": "شبيه تيك توك مارن ستاك مع مجتمع كليفر بروغرامر",
         "category": "شبيه تيك توك مارن ستاك (مونغو دي بي ، إكسبرس جي اس، رياكت جي اس، نود جي اس)",
-        "image": "tiktok-mern.jpeg",
+        "image": "tiktok-mern.jpeg"}],
         "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
       },
       {
-        "title": "واجهة مهندس معماري فيديو ديمو صغير",
+       "project":[{ "title": "واجهة مهندس معماري فيديو ديمو صغير",
         "category": "تطبيق أحادي الصفحة سينغل باج تحميل البيانات من قاعدة البيانات دون تحميل كل الصفحة بإستعمال الجيكويري",
-        "image": "facebook-clone.png",
+        "image": "facebook-clone.png"}],
         "url": "https://drive.google.com/file/d/17qm4Fp06nTwV4BTY8c7ALcBYaFmVhhax/view?usp=sharing"
       }
     ]
